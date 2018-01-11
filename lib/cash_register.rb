@@ -10,7 +10,7 @@ class CashRegister
     @total += price * quantity
   end
 
-  def apply_discount
+  def self.apply_discount
     return "After the discount, the total comes to $#{total}"
   end
 
